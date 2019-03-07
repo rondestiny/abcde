@@ -44,3 +44,19 @@ app.get("/allbooks", (request, response) => {
 })
 })
 
+/* app.get("/query", (request, response) => { 
+    console.log("someone request to SEARCH")
+    var records = collection.find()
+    records.forEach(function(record) {
+            if(record!=null) {
+                    console.log(record)
+                    result = result + JSON.stringify(record)
+}
+}, function(err) {
+if(err) {
+        response.status(500).send(err)
+}
+console.log(result)
+response.send(result)
+})
+}) */
